@@ -9,12 +9,12 @@ public class CameraScript : MonoBehaviour {
     public float offsetY = 2;
     public float offsetX = 2;
 
-    // Use this for initialization
+    
     void Start () {
         moveTemp = followObject.transform.position;
     }
     
-    // Update is called once per frame
+    
     void Update () {
         moveTemp = followObject.transform.position;
         moveTemp.y += offsetY;
